@@ -1,0 +1,22 @@
+* {
+
+  box-sizing: border-box;
+}
+.ulNav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: whitesmoke;
+  display: flex;
+  li {
+    width: 100px;
+    margin: 25px;
+    text-align: center;
+    a {
+      text-decoration: none;
+    }
+    &:hover {
+      background-color: turquoise
+    }
+  }
+}
